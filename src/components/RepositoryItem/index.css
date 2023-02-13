@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.list-of-items {
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .list-of-items {
+    width: 330px;
+    margin-right: 20px;
+  }
+}
+
+.avatar-img-container {
+  align-self: center;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-img {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #e73959;
+  font-weight: bold;
+}
+
+.icon-container {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+  .icon-container {
+    margin-bottom: 0px;
+  }
+}
+
+.icon-img {
+  align-self: center;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.icon-name {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1e293b;
+  align-self: center;
+}

@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.list-of-tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .list-of-tabs {
+    margin-right: 40px;
+  }
+}
+
+.list-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.tab-text {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.add-border {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  padding: 15px;
+  border-radius: 15px;
+
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
